@@ -2,7 +2,7 @@
 
 ## Welcome!
 
-This repository houses a framework Engineering Leadership Mastery, a comprehensive resource designed to empower engineering leaders in technology-driven organizations. 
+This repository houses a framework for Engineering Leadership Mastery - a comprehensive resource designed to empower engineering leaders in technology-driven organizations. 
 
 ## Framework Overview:
 
