@@ -48,7 +48,7 @@ By providing targeted guidance and practical tools relevant to each leader perso
 * Connect with other engineering leaders and share your experiences.
 
 ## Conclusion and Future Directions
-This concludes the Engineering Leadership Mastery Framework Version 2.0. By incorporating feedback and suggestions, we have aimed to create a more comprehensive and valuable resource for engineering leaders in the ever-evolving tech landscape. As technology continues to advance and leadership challenges evolve, the framework will need to adapt and grow. We encourage ongoing feedback, contributions, and collaboration to ensure its continued relevance and effectiveness in empowering engineering leaders to achieve mastery in their field.
+By incorporating feedback and suggestions, we have aimed to create a more comprehensive and valuable resource for engineering leaders in the ever-evolving tech landscape. As technology continues to advance and leadership challenges evolve, the framework will need to adapt and grow. We encourage ongoing feedback, contributions, and collaboration to ensure its continued relevance and effectiveness in empowering engineering leaders to achieve mastery in their field.
 Thank you for embarking on this journey with us. Let us continue to learn, grow, and build a future of exceptional engineering leadership together.
 
 ## License:
