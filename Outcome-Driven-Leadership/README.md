@@ -1,4 +1,4 @@
-Outcome-Driven Leadership
+Outcome-Driven Leadership: Content Development - Enhanced
 Mastering the Fundamentals:
 Imagine this: You're at the helm of a ship navigating through uncharted waters. Your destination? Success. Your compass? Outcome-Driven Leadership.
 So, what exactly is Outcome-Driven Leadership?
