@@ -1,4 +1,4 @@
-**Insight-Driven Decision Making: Content Development - Enhanced**
+**Insight-Driven Decision Making**
 
 **Metaphor**
 
