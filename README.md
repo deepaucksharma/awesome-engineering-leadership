@@ -45,7 +45,7 @@ By providing targeted guidance and practical tools relevant to each leader perso
 
 * Explore the **Themes** directory to delve into each leadership theme and its associated topics.
 * Refer to the **[CONTRIBUTING.md](./CONTRIBUTING.md)** file for guidelines on how to contribute to the framework. 
-* Join the **[Community](./Community)** to connect with other engineering leaders and share your experiences.
+* Connect with other engineering leaders and share your experiences.
 
 ## Conclusion and Future Directions
 This concludes the Engineering Leadership Mastery Framework Version 2.0. By incorporating feedback and suggestions, we have aimed to create a more comprehensive and valuable resource for engineering leaders in the ever-evolving tech landscape. As technology continues to advance and leadership challenges evolve, the framework will need to adapt and grow. We encourage ongoing feedback, contributions, and collaboration to ensure its continued relevance and effectiveness in empowering engineering leaders to achieve mastery in their field.
