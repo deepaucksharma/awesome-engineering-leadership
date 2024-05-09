@@ -16,6 +16,7 @@ Imagine an orchestra, with each section playing its part to create a harmonious 
 * **[Outcome-Driven Leadership](./Outcome-Driven-Leadership/README.md)** sets the tempo and direction. It establishes the goals, the metrics, and the accountability measures that drive the entire orchestra forward. It ensures everyone is playing from the same sheet music, working together to achieve a shared vision.
 * **[Insight-Driven Decision Making](./Insight-driven-decision-making/README.md)** provides the melody and harmony. It gathers data, analyzes trends, and extracts meaningful insights that inform the orchestra's performance. It helps the conductor make informed decisions, adjust the tempo, and fine-tune the dynamics to create a richer and more impactful experience.
 * **[Adaptive Leadership in Tech](./adaptive-leadership-in-tech/README.md)** brings flexibility and improvisation. It allows the orchestra to adapt to changing circumstances, experiment with new sounds, and overcome unexpected challenges. It ensures the music remains relevant and resonates with the audience, no matter what twists and turns the performance may take.
+
 Together, these three themes create a symphony of leadership, where each element plays a crucial role in achieving exceptional results.
 Just like a skilled conductor, an effective engineering leader must understand how to harmonize these different elements, empower their team, and inspire them to create something truly extraordinary.
 
