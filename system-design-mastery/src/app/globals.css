@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: 139 92 246;
+    --secondary: 59 130 246;
+    --accent: 236 72 153;
+    --background: 0 0 0;
+    --surface: 17 17 17;
+  }
+}
+
+@layer utilities {
+  .bg-grid-pattern {
+    background-image: 
+      linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+
+  .glow {
+    box-shadow: 
+      0 0 20px rgb(var(--primary) / 0.5),
+      0 0 40px rgb(var(--primary) / 0.3),
+      0 0 60px rgb(var(--primary) / 0.1);
+  }
+
+  .text-glow {
+    text-shadow: 
+      0 0 10px rgb(var(--primary) / 0.8),
+      0 0 20px rgb(var(--primary) / 0.6),
+      0 0 30px rgb(var(--primary) / 0.4);
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+}

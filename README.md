@@ -12,12 +12,13 @@ This repository houses a framework for Engineering Leadership Mastery - a compre
 * **Themes:** Outcome-Driven Leadership, Insight-Driven Decision Making, Adaptive Leadership in Tech.
 
 ## A Symphony of Leadership
-Imagine an orchestra, with each section playing its part to create a harmonious and impactful masterpiece. The Engineering Leadership Mastery Framework acts as the conductor's score, guiding each section – Outcome-Driven Leadership, Insight-Driven Decision Making, and Adaptive Leadership in Tech – to perform in unison and achieve a resounding success.
+Imagine an orchestra, with each section playing its part to create a harmonious and impactful masterpiece. The Engineering Leadership Mastery Framework acts as the conductor's score, guiding each section – Outcome-Driven Leadership, Insight-Driven Decision Making, Adaptive Leadership in Tech, and System Design Mastery – to perform in unison and achieve a resounding success.
 * **[Outcome-Driven Leadership](./Outcome-Driven-Leadership/README.md)** sets the tempo and direction. It establishes the goals, the metrics, and the accountability measures that drive the entire orchestra forward. It ensures everyone is playing from the same sheet music, working together to achieve a shared vision.
 * **[Insight-Driven Decision Making](./Insight-driven-decision-making/README.md)** provides the melody and harmony. It gathers data, analyzes trends, and extracts meaningful insights that inform the orchestra's performance. It helps the conductor make informed decisions, adjust the tempo, and fine-tune the dynamics to create a richer and more impactful experience.
 * **[Adaptive Leadership in Tech](./adaptive-leadership-in-tech/README.md)** brings flexibility and improvisation. It allows the orchestra to adapt to changing circumstances, experiment with new sounds, and overcome unexpected challenges. It ensures the music remains relevant and resonates with the audience, no matter what twists and turns the performance may take.
+* **[System Design Mastery](./system-design-mastery/README.md)** provides the technical foundation. It ensures leaders deeply understand the systems they're building, from first principles to distributed architectures. Through interactive simulations and real-world case studies, it builds the technical intuition needed to make informed architectural decisions and mentor teams effectively.
 
-Together, these three themes create a symphony of leadership, where each element plays a crucial role in achieving exceptional results.
+Together, these four themes create a symphony of leadership, where each element plays a crucial role in achieving exceptional results.
 Just like a skilled conductor, an effective engineering leader must understand how to harmonize these different elements, empower their team, and inspire them to create something truly extraordinary.
 
 ## Leader Personas and Practical Application

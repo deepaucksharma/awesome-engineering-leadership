@@ -1,0 +1,39 @@
+{
+  "name": "system-design-mastery",
+  "version": "1.0.0",
+  "description": "Interactive System Design Course - First Principles Approach",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "deploy": "npm run export && gh-pages -d out"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "d3": "^7.8.5",
+    "three": "^0.160.0",
+    "@react-three/fiber": "^8.15.0",
+    "@react-three/drei": "^9.92.0",
+    "zustand": "^4.4.7",
+    "framer-motion": "^10.16.16",
+    "tailwindcss": "^3.4.0",
+    "lucide-react": "^0.263.1",
+    "react-flow-renderer": "^10.3.17",
+    "monaco-editor": "^0.45.0",
+    "@monaco-editor/react": "^4.6.0",
+    "recharts": "^2.10.3",
+    "gh-pages": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.5",
+    "@types/react": "18.2.45",
+    "@types/react-dom": "18.2.18",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "typescript": "5.3.3"
+  }
+}
