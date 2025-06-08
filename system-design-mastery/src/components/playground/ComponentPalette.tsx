@@ -1,7 +1,6 @@
 'use client'
 
 import { Server, Database, Cloud, Shield, Users, Zap } from 'lucide-react'
-import { motion } from 'framer-motion'
 
 const components = [
   { id: 'server', name: 'Server', icon: Server, color: 'text-blue-400' },
@@ -26,19 +25,17 @@ export default function ComponentPalette() {
           const Icon = component.icon
           
           return (
-            <motion.div
+            <div
               key={component.id}
               draggable
               onDragStart={(e) => handleDragStart(e, component)}
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-              className="p-3 bg-white/5 hover:bg-white/10 rounded-lg cursor-move transition-colors"
+              className="p-3 bg-white/5 hover:bg-white/10 rounded-lg cursor-move transition-colors hover:scale-105 active:scale-95"
             >
               <div className="flex items-center gap-3">
                 <Icon className={`w-6 h-6 ${component.color}`} />
                 <span className="text-sm font-medium">{component.name}</span>
               </div>
-            </motion.div>
+            </div>
           )
         })}
       </div>

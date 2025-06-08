@@ -31,8 +31,8 @@ export default function NetworkVisualization() {
     const nodeGeometry = new THREE.SphereGeometry(0.5, 16, 16)
     const nodeMaterial = new THREE.MeshBasicMaterial({ 
       color: 0x8b5cf6,
-      emissive: 0x8b5cf6,
-      emissiveIntensity: 0.5
+      transparent: true,
+      opacity: 0.8
     })
 
     const nodes: THREE.Mesh[] = []
@@ -86,8 +86,8 @@ export default function NetworkVisualization() {
       })
 
       // Pulse effect
-      const pulse = Math.sin(Date.now() * 0.002) * 0.5 + 0.5
-      nodeMaterial.emissiveIntensity = pulse * 0.5
+      const pulse = Math.sin(Date.now() * 0.002) * 0.3 + 0.7
+      nodeMaterial.opacity = pulse
 
       renderer.render(scene, camera)
     }
