@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/sysDesignContent' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/sysDesignContent' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/awesome-engineering-leadership/system-design-mastery' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/awesome-engineering-leadership/system-design-mastery' : '',
   images: {
     unoptimized: true,
   },
