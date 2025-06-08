@@ -1,11 +1,8 @@
-name: Deploy System Design Mastery to GitHub Pages
+name: Deploy Complete Site
 
 on:
   push:
     branches: ["main"]
-    paths:
-      - 'system-design-mastery/**'
-      - '.github/workflows/deploy-system-design.yml'
   workflow_dispatch:
 
 permissions:
@@ -20,9 +17,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./system-design-mastery
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -34,28 +28,41 @@ jobs:
           cache: "npm"
           cache-dependency-path: ./system-design-mastery/package-lock.json
           
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        with:
-          static_site_generator: next
+      - name: Create site structure
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp -r Outcome-Driven-Leadership _site/
+          cp -r Insight-driven-decision-making _site/
+          cp -r adaptive-leadership-in-tech _site/
+          mkdir -p _site/system-design-mastery
           
-      - name: Install dependencies
+      - name: Install dependencies for System Design
+        working-directory: ./system-design-mastery
         run: npm ci
         
-      - name: Build with Next.js
+      - name: Build System Design Next.js app
+        working-directory: ./system-design-mastery
         run: npm run build
         env:
           NODE_ENV: production
           
+      - name: Copy Next.js build to site
+        run: |
+          cp -r system-design-mastery/out/* _site/system-design-mastery/
+          
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./system-design-mastery/out
-
+          path: ./_site
+          
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}/system-design-mastery
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
