@@ -105,6 +105,69 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Course Modules */}
+      <section className="py-20 px-6 bg-surface/30">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-16">
+            Course Modules
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <Link href="/fundamentals">
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                className="p-8 bg-gradient-to-br from-violet-600/20 to-purple-600/20 rounded-xl border border-violet-500/30 hover:border-violet-400/50 transition-all cursor-pointer"
+              >
+                <Zap className="w-12 h-12 text-violet-400 mb-4" />
+                <h3 className="text-2xl font-bold mb-2">Fundamentals</h3>
+                <p className="text-gray-300">
+                  Physics of computing, storage, networking, and compute basics
+                </p>
+              </motion.div>
+            </Link>
+            
+            <Link href="/case-studies">
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                className="p-8 bg-gradient-to-br from-green-600/20 to-emerald-600/20 rounded-xl border border-green-500/30 hover:border-green-400/50 transition-all cursor-pointer"
+              >
+                <Database className="w-12 h-12 text-green-400 mb-4" />
+                <h3 className="text-2xl font-bold mb-2">Real-World Case Studies</h3>
+                <p className="text-gray-300">
+                  UPI, Flipkart, WhatsApp, and more Indian & global systems
+                </p>
+              </motion.div>
+            </Link>
+            
+            <Link href="/low-level-design">
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                className="p-8 bg-gradient-to-br from-blue-600/20 to-cyan-600/20 rounded-xl border border-blue-500/30 hover:border-blue-400/50 transition-all cursor-pointer"
+              >
+                <Cpu className="w-12 h-12 text-blue-400 mb-4" />
+                <h3 className="text-2xl font-bold mb-2">Low-Level Design</h3>
+                <p className="text-gray-300">
+                  Build production components: OTP systems, rate limiters, and more
+                </p>
+              </motion.div>
+            </Link>
+            
+            <Link href="/playground">
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                className="p-8 bg-gradient-to-br from-pink-600/20 to-orange-600/20 rounded-xl border border-pink-500/30 hover:border-pink-400/50 transition-all cursor-pointer"
+              >
+                <Network className="w-12 h-12 text-pink-400 mb-4" />
+                <h3 className="text-2xl font-bold mb-2">System Playground</h3>
+                <p className="text-gray-300">
+                  Design and simulate distributed systems interactively
+                </p>
+              </motion.div>
+            </Link>
+          </div>
+        </div>
+      </section>
     </main>
   )
 }
